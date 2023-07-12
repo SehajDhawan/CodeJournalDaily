@@ -25,13 +25,13 @@ public:
                 res1 = arr[i];
                 res2 = brr[j];
             }
-
+            else{
             // Move the pointers based on the comparison with x
             if (sum < x)
                 i++;
             else
                 j--;
-        }
+        }}
 
         std::vector<int> closestPair = {res1, res2};
         return closestPair;
